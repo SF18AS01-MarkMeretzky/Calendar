@@ -15,6 +15,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad();
         // Do any additional setup after loading the view, typically from a nib.
+        
+        //-----
 
         //Create an array of eight Doubles, giving the length in hours of each weekday's class.
         let length: [Double] = [
@@ -76,6 +78,8 @@ class ViewController: UIViewController {
             }
             date = calendar.date(byAdding: .day, value: 1, to: date)! //Go to the next date.
         }
+        
+        //-----
     }
 
 }
